@@ -1,0 +1,25 @@
+ALGORITHME Permutation
+	// BUT : Permuter 3 entiers saisis par un utilisateur.
+	// ENTRÉES : 3 Entiers. 
+	// SORTIE : Les Entiers permutés.
+
+
+VAR
+	ent1, ent2, ent3 : ENTIER
+	ent1perm, ent2perm, ent3perm : ENTIER
+
+
+DEBUT
+	ECRIRE "Veuillez entrer 3 entiers."
+	LIRE (ent1), (ent2), (ent3)
+	
+	ent1perm ← ent1 
+	ent2perm ← ent2
+	ent3perm ← ent3 
+	ent1 ← ent2perm
+	ent2 ← ent3perm
+	ent3 ← ent1perm
+	
+	ECRIRE "Vos entiers permutés sont : ent1, ent2, ent3
+
+FIN
